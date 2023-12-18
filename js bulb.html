@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="js bulb.css">
+</head>
+<body>
+    <img id="id1" src="https://media.geeksforgeeks.org/wp-content/uploads/OFFbulb.jpg" alt="">
+    <button onclick="bulb1()">ON</button>
+    <button onclick="bulb2()">OFF</button>
+
+    <div id="id2" class="main-div">
+
+    </div>
+    <button onclick="bulb3()">click</button>
+
+
+
+
+
+
+
+
+
+
+<SCript>
+    function bulb1(){
+        document.getElementById("id1").src="https://media.geeksforgeeks.org/wp-content/uploads/ONbulb.jpg"
+        
+    }
+    function bulb2(){
+        document.getElementById("id1").src="https://media.geeksforgeeks.org/wp-content/uploads/OFFbulb.jpg"
+    }
+    function  bulb3(){
+        // document.getElementById("id2").classList.add("new-main")
+        document.getElementById("id2").className+=" new-main"
+    }
+
+    
+</SCript>
+
+<script src="js bulb.js"></script>
+</body>
+</html>

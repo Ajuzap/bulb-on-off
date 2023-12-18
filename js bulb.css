@@ -1,0 +1,9 @@
+.main-div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.new-main{
+    background-color: bisque;
+    border-radius: 100px;
+}
